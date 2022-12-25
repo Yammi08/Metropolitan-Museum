@@ -1,0 +1,53 @@
+.contenedor__informacion
+{
+    width: 60em;
+    margin: 50px auto;
+}
+.contenedor__titulo
+{
+    background-color: aliceblue;
+    padding: 15px 0px;
+    margin: 0px auto;
+    border-radius: 3px 3px 0px 0px;
+    justify-content: center;
+}
+.informacion__imagen
+{
+    width: 100%;
+    display: block;
+    
+    
+}
+.informacion__titulo
+{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: purple;
+}
+.informacion__descripcion__titulo
+{
+    font-weight: bolder;
+    width: 150px;
+    color: purple;
+}
+.contendor__descripcion
+{
+    background-color: aliceblue;
+    border-radius:0px 0px 3px 3px;
+    font-size: large;
+    padding:  6px;
+    box-sizing: content-box;
+}
+.informacion__descripcion
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.informacion__descripcion__detalle
+{
+    flex: 1;
+    text-align: center;
+}
