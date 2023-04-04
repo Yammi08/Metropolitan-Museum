@@ -65,9 +65,13 @@ body
     justify-content: center;
     transition: all 0.08s;
 }
-.contenedor__link-a:hover
+.link-copyright:hover
 {
     text-decoration: underline;
+}
+.contenedor__link-a:hover
+{
+    
     color: rgb(40, 40, 45);/*rgba(240, 248, 255, 0.8);*/
     background-color: aliceblue;
 }

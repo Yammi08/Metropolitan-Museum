@@ -39,37 +39,9 @@
     </header>
     <main>
         <div class="contenedor__items">
-            <%for(let item in items) {%>
-                <div class="contenedor__informacion">
-                    <div class="contenedor__titulo">
-                        <h1 class="informacion__titulo">
-                            <%=items[item].title%>
-                        </h1>
-                    </div>
-                    <img class="informacion__imagen" src=<%=items[item].primaryImage%> alt=<%=items[item].title%>>
-                        <ol class="contendor__descripcion">
-                            <li class="informacion__descripcion">
-                                <h3 class="informacion__descripcion__titulo">date of picture:</h3>
-                                <p class="informacion__descripcion__detalle">
-                                    <%if(items[item].artistBeginDate !='' && items[item].artistEndDate !='' ){%>
-                                        <%='('+items[item].artistBeginDate +' - '+ items[item].artistEndDate+' )'%>
-                                            <%}else{%>no date<%}%>
-                                </p>
-                            </li>
-                            <li class="informacion__descripcion">
-                                <h3 class="informacion__descripcion__titulo">accession Year:</h3>
-                                <p class="informacion__descripcion__detalle"><%=items[item].accessionYear%></p>
-                            </li>
-                            <li class="informacion__descripcion">
-                                <h3 class="informacion__descripcion__titulo">culture:</h3>
-                                <p class="informacion__descripcion__detalle"><%=items[item].culture%></p>
-                            </li>
-                        </ol>
-                </div>
-                <%}%>
         </div>
     </main>
-    <script type="module" src="./js/api.js"></script>
+    <script type="module" src="./js/museum-init.js"></script>
 </body>
 
 </html>

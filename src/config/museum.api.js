@@ -1,6 +1,7 @@
+import fetch from "node-fetch";
 const url = 'https://collectionapi.metmuseum.org/public/collection/v1/objects';
-const getIds = async ()=> await (await fetch(url)).json();
 
+const getIds = async ()=> await (await fetch(url)).json();
 const getObjById = async (id)=>
 {
     const nUrl = url+'/'+id; 

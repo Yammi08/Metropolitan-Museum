@@ -3,10 +3,7 @@ const router = express.Router();
 
 router.get('/',async (req,res)=>
 {
-    const items = [];
-    
-    
-    res.status(200).render('index',{items});
+    res.status(200).render('index',);
      
 })
 export default router;
