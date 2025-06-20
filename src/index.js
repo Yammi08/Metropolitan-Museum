@@ -2,7 +2,6 @@ import dotenv from 'dotenv';
 import express from 'express';
 import path from 'path';
 import ejs from 'ejs';
-import fetch from 'node-fetch';
 //config env
 dotenv.config();
 
